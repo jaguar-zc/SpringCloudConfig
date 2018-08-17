@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/cloud-user
+    url: jdbc:postgresql://localhost:5432/cloud-blog
     username: postgres
     password: admin
     type: com.zaxxer.hikari.HikariDataSource
