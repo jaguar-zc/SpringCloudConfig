@@ -2,4 +2,4 @@ app:
   language: ZH-CN
 mybatis:
   mapper-locations: classpath:/mybatis/sqlmap/*.xml,classpath:/mybatis/sqlmap/ext/*.xml
-  config-location: classpath:/mybatis/config/mybatis-config.xml
+  config-location: classpath*:/mybatis/config/mybatis-config.xml
